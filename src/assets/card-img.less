@@ -1,0 +1,62 @@
+@import "./preset.less";
+.card4 {
+  grid-column: 10/16;
+  grid-row: 3/4;
+  border-radius: 11px;
+  box-shadow: @box-shadou;
+  background-color: @bg-color-secondaire;
+  height: 41vh;
+  width: 100%;
+}
+.top-card4 {
+  height: 50%;
+  position: relative;
+
+  .img-card4 {
+    width: 23.3vw;
+
+    border-radius: 11px 11px 0 0;
+  }
+  .but-card4 {
+    background-color: @lifestyle;
+    position: absolute;
+    top: 19%;
+    left: 8%;
+    border: none;
+    border-radius: 20px;
+    padding: 1.5% 3.5%;
+    font-family: "Cabin", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: x-small;
+
+    // position: relative;
+    &:hover {
+      background-color: @bg-color-secondaire;
+      color: @color-title-primery;
+    }
+  }
+}
+.buttom-card4 {
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 2vh 1.9vw;
+}
+.buttom-card4 h1 {
+  font-family: @lato;
+  font-size: 1.45vw;
+  font-weight: 700;
+}
+.ext-card4 {
+  .df-jcfs-aic;
+  gap: 3%;
+  width: 100%;
+  color: @primery-txt;
+  font-size: 0.8vw;
+  &:hover {
+    color: @color-title-primery;
+  }
+}

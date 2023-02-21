@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabin/v26/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHx_Klwg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabin/v26/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXH9fKlwg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabin/v26/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EL7E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabin/v26/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkYODL7E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabin/v26/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkbqDL7E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u8w4BMUTPHh30wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh7USew8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHvxk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVew8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh50Xew8.ttf) format('truetype');
+}
+.df-jcc-aic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.df-jcc-aifs {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.df-jcb-aic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.df-jca-aic {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.df-jce-aic {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.df-jcfs-aic {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.df-jcfe-aic {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.df-jcfs-aifs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.df-jcsa-aifs {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.card4 {
+  grid-column: 10/16;
+  grid-row: 3/4;
+  border-radius: 11px;
+  box-shadow: 0 3px 5px 0 rgba(0, 1, 1, 0.1);
+  background-color: #ffffff;
+  height: 41vh;
+  width: 100%;
+}
+.top-card4 {
+  height: 50%;
+  position: relative;
+}
+.top-card4 .img-card4 {
+  width: 23.3vw;
+  border-radius: 11px 11px 0 0;
+}
+.top-card4 .but-card4 {
+  background-color: #009cff;
+  position: absolute;
+  top: 19%;
+  left: 8%;
+  border: none;
+  border-radius: 20px;
+  padding: 1.5% 3.5%;
+  font-family: "Cabin", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: x-small;
+}
+.top-card4 .but-card4:hover {
+  background-color: #ffffff;
+  color: #111111;
+}
+.buttom-card4 {
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 2vh 1.9vw;
+}
+.buttom-card4 h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.45vw;
+  font-weight: 700;
+}
+.ext-card4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3%;
+  width: 100%;
+  color: #5e5e5e;
+  font-size: 0.8vw;
+}
+.ext-card4:hover {
+  color: #111111;
+}
